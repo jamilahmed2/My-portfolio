@@ -81,6 +81,10 @@
     .about__content p{
         margin: 1rem 0 .5rem;
     }
+
+    .about__content{
+        text-align: center;
+    }
 }
 /* =========== MEDIA QUERRY (SMALL DEVICES) ============= */
 @media screen and (max-width:600px) {
@@ -100,5 +104,9 @@
 
     .about__content p{
         margin: 1.5rem 0;
+    }
+
+    .about__me-image{
+        height: 20rem;
     }
 }

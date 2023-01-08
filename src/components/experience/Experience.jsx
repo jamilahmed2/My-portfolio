@@ -1,9 +1,12 @@
 import React from 'react'
 import "./experience.css"
+import {BsPatchCheckFill} from 'react-icons/bs'
 
 const Experience = () => {
   return (
-    <section id='experience'>Experience</section>
+    <section id='experience'>
+      
+    </section>
   )
 }
 

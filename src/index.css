@@ -11,12 +11,19 @@
 }
 /* =========== VARIABLES ============= */
 :root {
-    --color-bg: #1f1f38;
-    --color-bg-variant: #2c2c6c;
-    --color-primary: #4db5ff;
-    --color-primary-variant: Orgba(77, 181, 255, 0.4);
+    --color-bg: #332d20;
+    --color-bg-variant: #6c5b2c;
+    --color-primary: #FF9B49;
+    --color-primary-variant: rgba(255, 228, 77, 0.4);
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
+    
+    /* --color-bg: #1f1f38;
+    --color-bg-variant: #2c2c6c;
+    --color-primary: #4db5ff;
+    --color-primary-variant: rgba(77, 181, 255, 0.4);
+    --color-white: #fff;
+    --color-light: rgba(255, 255, 255, 0.6); */
 
     --container-width-lg: 75%;
     --container-width-md: 86%;
@@ -40,7 +47,7 @@ html {
 body {
     font-family: 'Poppins', sans-serif;
     background: var(--color-bg);
-    color: var(--color-light);
+    color: var(--color-white);
     line-height: 1.7;
     background-image: url(./assets/bg-texture.png);
 }
@@ -73,6 +80,7 @@ section > h5 {
     text-align: center;
     color: var(--color-light);
 }
+
 section > h2{
     color: var(--color-primary);
     margin-bottom: 3rem;

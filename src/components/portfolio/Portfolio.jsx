@@ -1,6 +1,5 @@
 import React from 'react'
 import "./portfolio.css"
-import worksimplr from "../../assets/p1.png"
 import gamedev from "../../assets/p2.png"
 import moviesite from "../../assets/p3.png"
 import newsapp from "../../assets/newsapp.png"
@@ -25,18 +24,12 @@ const Portfolio = () => {
     },
     {
       id:3,
-      image: worksimplr,
-      title: "WorkSimplr Website",
-      github:"https://github.com/jamilahmed2/worksimplr"
-    },
-    {
-      id:4,
       image: gamedev,
       title: "Gamedevelopment Website ",
       github:"https://github.com/jamilahmed2/Game-development-website"
     },
     {
-      id:5,
+      id:4,
       image: moviesite,
       title: "Movies Webiste ",
       github:"https://github.com/jamilahmed2/Movie-website"
@@ -48,7 +41,7 @@ const Portfolio = () => {
       github:"https://github.com/jamilahmed2/Text-utils"
     },
     {
-      id:5,
+      id:6,
       image: portfolio,
       title: "Portfolio  - React",
       github:"https://github.com/jamilahmed2/My-portfolio"

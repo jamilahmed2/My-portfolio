@@ -65,6 +65,13 @@
     color: var(--color-light);
 }
 
+.qualification h3{
+    color: var(--color-primary);
+}
+.qualification small{
+    color: var(--color-light);
+}
+
 
 /* =========== MEDIA QUERRY (MEDIUM DEVICES) ============= */
 @media screen and (max-width:1024px) {

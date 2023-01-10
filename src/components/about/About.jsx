@@ -1,10 +1,9 @@
 import React from 'react'
 import "./about.css"
-// import ME from "../../assets/me-about.png"
 import ME from "../../assets/me-about.jpg"
-import {FaAward} from "react-icons/fa"
-import {FiUsers} from "react-icons/fi"
-import {VscFolderLibrary} from "react-icons/vsc"
+// import {FaAward} from "react-icons/fa"
+// import {FiUsers} from "react-icons/fi"
+// import {VscFolderLibrary} from "react-icons/vsc"
 
 const About = () => {
   return (
@@ -21,7 +20,7 @@ const About = () => {
         </div>
 
       <div className="about__content">
-        <div className="about__cards">
+        {/* <div className="about__cards">
           <article className='about__card'>
             <FaAward className="about__icon"/>
             <h5>Experience</h5>
@@ -37,14 +36,20 @@ const About = () => {
             <h5>Projects</h5>
             <small>10+ Completed</small>
           </article>
-        </div>
+        </div> */}
 
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-          Vel laborum similique cum accusamus exercitationem fugiat.
+        I am an 19 years old web developer (MERN) and currently studying in college. 
+        I am front-end web developer with 1 year of experience.
         </p>
+        <div className='qualification'>
+        <h3 >Qualification</h3>
+        <small>I have passed matriculation examination from F.G. Public School Karachi Cantt with 80% (A Grade).</small><br />
+        <small>Studying in F.G Intermediate College </small>
+        </div>
 
-        <a href="" className='btn btn-primary'>Let's Talk</a>
+
+        <a href="#contact" className='btn btn-primary' >Let's Talk</a>
       </div>
 
       </div>

@@ -1,29 +1,57 @@
 import React from 'react'
 import "./portfolio.css"
-import IMG1 from "../../assets/p1.png"
-import IMG2 from "../../assets/p2.png"
-import IMG3 from "../../assets/p3.png"
+import worksimplr from "../../assets/p1.png"
+import gamedev from "../../assets/p2.png"
+import moviesite from "../../assets/p3.png"
+import newsapp from "../../assets/newsapp.png"
+import portfolio from "../../assets/portfolio.png"
+import textutils from "../../assets/textutils.png"
+import notebooks from "../../assets/notebooks.png"
 
 const Portfolio = () => {
 
   const data = [
     {
       id:1,
-      image: IMG1,
-      title: "WorkSimplr - figma template",
-      github:"https://github.com/jamilahmed2"
+      image: notebooks,
+      title: "Notebooks App  ",
+      github:"https://github.com/jamilahmed2/Notebooks"
     },
     {
       id:2,
-      image: IMG2,
-      title: "Game Development - figma template",
-      github:"https://github.com/jamilahmed2"
+      image: newsapp,
+      title: "News App   ",
+      github:"https://github.com/jamilahmed2/Newsapp---React"
     },
     {
       id:3,
-      image: IMG3,
-      title: "Movies Webiste  - Design",
-      github:"https://github.com/jamilahmed2"
+      image: worksimplr,
+      title: "WorkSimplr Website",
+      github:"https://github.com/jamilahmed2/worksimplr"
+    },
+    {
+      id:4,
+      image: gamedev,
+      title: "Gamedevelopment Website ",
+      github:"https://github.com/jamilahmed2/Game-development-website"
+    },
+    {
+      id:5,
+      image: moviesite,
+      title: "Movies Webiste ",
+      github:"https://github.com/jamilahmed2/Movie-website"
+    },
+    {
+      id:5,
+      image: textutils,
+      title: "Text-Utils  App",
+      github:"https://github.com/jamilahmed2/Text-utils"
+    },
+    {
+      id:5,
+      image: portfolio,
+      title: "Portfolio  - React",
+      github:"https://github.com/jamilahmed2/My-portfolio"
     }
   ]
 

@@ -2,6 +2,7 @@ import React from 'react'
 import "./footer.css"
 import { BsLinkedin,BsGithub, } from "react-icons/bs"
 import { SiFiverr } from "react-icons/si"
+import { AiOutlineVerticalAlignTop } from "react-icons/ai"
 
 const Footer = () => {
    // eslint-disable-next-line
@@ -25,7 +26,7 @@ const Footer = () => {
        </div>
 
     <div className="footer__copyright">
-      <small>&copy;All right reserved | Jamil Ahmed</small>
+      <small>&copy;All right reserved | Jamil Ahmed </small><a href="#"><AiOutlineVerticalAlignTop /></a>
     </div>
     </footer>
   )
